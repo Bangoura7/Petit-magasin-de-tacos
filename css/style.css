@@ -250,5 +250,14 @@ a:active {
 .contact_textarea {
    padding: 0.5rem; 
    border-radius: var(--BORDER-RADIUS);
-   
+   border-width: 2px;
+   width: 100%;
+}
+.contact__button {
+    padding: 0.5rem;
+    border-radius: var(--BORDER-RADIUS);
+    background-color: var(--HIGHLIGHT-COLOR);
+    color:var(--BUTTON-COLOR);
+    font-weight: bold;
+
 }
